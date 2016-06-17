@@ -10,8 +10,8 @@
     <SearchView
         android:id="@+id/search_view"
         android:inputType="text"
-        android:alpha="0.5"
-        android:background="#696969"
+        android:alpha="0.8"
+        android:background="#FFFFFF"
         android:queryHint="Enter city"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"

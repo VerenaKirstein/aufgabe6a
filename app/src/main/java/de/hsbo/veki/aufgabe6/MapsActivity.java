@@ -166,8 +166,13 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             default:
                 break;
         }
-        if(description.contains("rain")){
-            icon = R.drawable.i10d;
+        if(icon==null) {
+            if (description.contains("rain")) {
+                icon = R.drawable.i10d;
+            }
+            else if(description.contains("clouds")){
+                icon = R.drawable.i04d;
+            }
         }
 
         return  icon;
